@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
 import Main from './containers/Main';
-import NotFound from './containers/NotFound';
 import GlobalStyles from './GlobalStyles';
 
 import "./assets/vendor/nucleo/css/nucleo.css";

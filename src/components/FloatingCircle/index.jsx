@@ -30,7 +30,7 @@ const Circle = styled.div`
 
 const FloatingCircle = ({inverted=false, factor=0.02, style}) => {
   const position = useMousePosition();
-  const [invert, setInvert] = useState(inverted);
+  const [invert,] = useState(inverted);
   
   return (
     <Circle>
