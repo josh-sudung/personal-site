@@ -1,10 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Main from './containers/Main';
+import NotFound from './containers/NotFound';
+import GlobalStyles from './GlobalStyles';
+
+import "./assets/vendor/nucleo/css/nucleo.css";
+import "./assets/vendor/font-awesome/css/font-awesome.min.css";
+import "./assets/css/argon-design-system-react.css";
+
+ReactDOM.render(
+  <React.Fragment>
+    <GlobalStyles />
+    <Main />
+  </React.Fragment>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
