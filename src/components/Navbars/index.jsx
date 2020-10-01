@@ -199,22 +199,6 @@ class Navbars extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://wa.me/6281286023112"
-                      id="tooltip184698705"
-                      target="_blank"
-                    >
-                      <i className="fa fa-whatsapp" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Whatsapp
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip184698705">
-                    Contact me on Whatsapp
-                    </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
                       href="mailto:josh.sudung07@gmail.com"
                       id="tooltip333589074"
                       target="_blank"
